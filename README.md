@@ -1,5 +1,10 @@
 # Django Bootstrap Blog
 
+## Credit by
+
+- [Corey Schafer Playlist](https://www.youtube.com/watch?v=UmljXZIypDc&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p)
+- [GitHub](https://github.com/CoreyMSchafer/code_snippets/tree/master/Django_Blog)
+
 ## Packages in Global Environment
 
 - python 3.7.3
