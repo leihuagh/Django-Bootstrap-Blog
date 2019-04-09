@@ -46,6 +46,12 @@ django-admin startproject config .
 python manage.py startapp <app name>
 ```
 
+- Run Server
+
+```shell
+python manage.py runserver
+```
+
 - Migrations
 
 ```shell
