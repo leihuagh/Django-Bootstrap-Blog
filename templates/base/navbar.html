@@ -33,10 +33,7 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="myaccount" data-toggle="dropdown" aria-haspopup="true"
                     aria-expanded="false">
-                    <span class="fa-stack">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fas fa-user fa-stack-1x fa-inverse"></i>
-                    </span>
+                    <img src="{% static 'img/icons/user.svg' %}" class="img-fluid img-thumbnail" alt="...">
                 </a>
                 <div class="dropdown-menu" aria-labelledby="myaccount">
                     {% if user.is_authenticated %}
