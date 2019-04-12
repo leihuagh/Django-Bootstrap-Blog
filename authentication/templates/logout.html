@@ -5,5 +5,16 @@ Logout
 {% endblock head_title %}
 
 {% block main_contents %}
-<h2>Logout</h2>
+<div class="container">
+    <div class="row">
+        <div class="mx-auto text-center mt-3 mb-5">
+            <h2 class="text-capitalize">you have been logged out</h2>
+            <div class="border-top mt-3 pt-3">
+                <small class="text-muted text-capitalize">
+                    <a href="{% url 'login' %}">log in again</a>
+                </small>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock main_contents %}
