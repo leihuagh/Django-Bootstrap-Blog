@@ -23,5 +23,13 @@ Login
         </div>
         <div class="col-md-3"></div>
     </div>
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 border-top pt-3 text-capitalize">
+            <small class="text-muted">need <span class="text-lowercase">an</span> account?</small>
+            <a href="{% url 'users:register' %}">sign up now</a>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
 </div>
 {% endblock main_contents %}
