@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'core.apps.CoreConfig',
     'authentication.apps.AuthenticationConfig',
+    'users.apps.UsersConfig',
     'home.apps.HomeConfig',
     'company.apps.CompanyConfig',
 ]
